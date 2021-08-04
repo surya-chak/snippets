@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: open_read
+# key: ropen
+# group: fortran
+# --
+open($1,file=$2,form='$3',convert='little_endian')
+read($1) $0
+read($1) 
+close($1)
+
+
+

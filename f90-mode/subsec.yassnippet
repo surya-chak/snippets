@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: code_SubSection
+# key: subsec
+# group: fortran
+# --
+! ------ $0 ------

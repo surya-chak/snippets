@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: movie_maker
+# key: moviemaker
+# group: julia
+# --
+
+
+@pyimport matplotlib.animation as anim
+withfig(fig) do
+    myanim = anim.FuncAnimation(fig, ${1:plot_fn_name}, frames=nfil, interval=nfil)
+    myanim[:save]("$2", bitrate=-1)
+                  # extra_args=["-vcodec", "libx264", "-pix_fmt", "yuv420p"])
+end

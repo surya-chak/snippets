@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: real_2D
+# key: r2
+# group: fortran
+# --
+real,allocatable,dimension(:,:)::$0
+

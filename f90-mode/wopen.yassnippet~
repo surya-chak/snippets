@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: open_write
+# key: wopen
+# group: fortran
+# --
+open($1,file=$2,form='$3',convert='little_endian')
+write($1) $0
+write($1) 
+close($1)
+
+
+

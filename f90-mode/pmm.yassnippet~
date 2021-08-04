@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: print_min_max
+# key: pmm
+# group: fortran
+# --
+print*,minval($1),maxval($1)
+$0
+

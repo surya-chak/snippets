@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: double_precision_2D
+# key: dp2
+# group: fortran
+# --
+double precision,allocatable,dimension(:,:)::$0
+

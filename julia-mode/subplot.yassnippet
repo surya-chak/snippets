@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: subplot
+# key: sbplt
+# group: julia
+# --
+
+subplot($0,aspect=1)

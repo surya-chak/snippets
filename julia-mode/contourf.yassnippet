@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: contourf
+# key: cont	
+# group: julia
+# --
+contourf($1,$2,$0,cmap=ColorMap("jet"))

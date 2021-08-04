@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: contour(2 X 2)
+# key: contour22
+# group: julia
+# --
+
+
+@pyimport matplotlib.animation as anim
+
+withfig(fig) do
+    myanim = anim.FuncAnimation(fig, make_frame, frames=nfil, interval=nfil)
+    myanim[:save]("jet_minor_cs.mp4", bitrate=-1)
+                  # extra_args=["-vcodec", "libx264", "-pix_fmt", "yuv420p"])
+end

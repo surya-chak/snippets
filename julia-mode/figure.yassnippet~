@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: figure
+# key: figure	
+# group: julia
+# --
+
+close(all)
+figure($1,figsize=($2));clf();
+
+$0
+
+tight_layout()

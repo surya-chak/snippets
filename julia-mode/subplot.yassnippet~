@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: subplt22
+# key: csp22
+# group: julia
+# --
+close(all)
+figure($1,figsize=(20,10));clf();
+
+subplot(221,aspect=1)
+contourf($2,cmap=ColorMap("jet"))
+
+subplot(222,aspect=1)
+contourf($3,cmap=ColorMap("jet"))
+
+subplot(223,aspect=1)
+contourf($4,cmap=ColorMap("jet"))
+
+subplot(224,aspect=1)
+contourf($0,cmap=ColorMap("jet"))
+
+tight_layout()

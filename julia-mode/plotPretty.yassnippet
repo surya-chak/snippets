@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: plotPretty
+# key: plotpretty
+# group: julia
+# --
+# ----
+xlim(xLev)
+ylim(yLev)
+xlabel(L"$4",FontSize=21)
+ylabel(L"$3",FontSize=21)
+title(L"$0",FontSize=21)
+# ----
+
+

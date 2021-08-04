@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: real_4D
+# key: r4
+# group: fortran
+# --
+real,allocatable,dimension(:,:,:,:)::$0
+

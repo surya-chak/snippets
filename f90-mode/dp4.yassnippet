@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: double_precision_4D
+# key: dp4
+# group: fortran
+# --
+double precision,allocatable,dimension(:,:,:,:)::$0
+
