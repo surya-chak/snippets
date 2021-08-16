@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: rcParams
+# key: rcParams
+# group: julia
+# --
+rcParams=PyPlot.PyDict(PyPlot.matplotlib."rcParams")
+rcParams["$1"]=$0;
+
