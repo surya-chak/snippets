@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: CommntSubSection
+# key: css
+# group: LaTeX
+# --
+# ----- $1 -----
+$0
