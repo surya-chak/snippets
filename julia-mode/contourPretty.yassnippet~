@@ -1,19 +1,16 @@
 # -*- mode: snippet -*-
 # name: plotPretty
-# key: plotpretty
+# key: contourpretty
 # group: julia
 # --
 # ----
 xlim($1)
-xlabel(L"$2",FontSize=21)
-ylim($3)
+ylim($2)
+clim(-1e-5,1e-5)
+xlabel(L"$3",FontSize=21)
 ylabel(L"$4",FontSize=21)
 title(L"$0",FontSize=21)
-legend()
-ax.spines["right"].set_visible(false);
-ax.spines["top"].set_visible(false);
-ax.spines["left"].set_linewidth(3);
-ax.spines["bottom"].set_linewidth(3);
+ax.minorticks_on()
 ax.tick_params(axis="both",which="major",length=8,width=3)
 ax.tick_params(axis="both",which="minor",length=5,width=2)
 # ----

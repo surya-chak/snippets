@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: plot
+# key: plot
+# group: julia
+# --
+plot($1,$2,label="$3",linewidth=3)
+$0

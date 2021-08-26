@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: pcolormesh
+# key: pcolor	
+# group: julia
+# --
+pcolormesh($1,$2,$0,cmap="jet",shading="gouraud")
