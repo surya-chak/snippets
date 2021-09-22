@@ -14,6 +14,7 @@ ax.spines["right"].set_visible(false);
 ax.spines["top"].set_visible(false);
 ax.spines["left"].set_linewidth(3);
 ax.spines["bottom"].set_linewidth(3);
+ax.minorticks_on()
 ax.tick_params(axis="both",which="major",length=8,width=3)
 ax.tick_params(axis="both",which="minor",length=5,width=2)
 # ----
