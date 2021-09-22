@@ -4,5 +4,3 @@
 # group: julia
 # --
 ax=subplot($0,aspect=1)
-
-loglog(a2Freq,a2PSD,label="m=2a PSD",linewidth=3)
