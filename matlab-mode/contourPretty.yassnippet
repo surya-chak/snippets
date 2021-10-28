@@ -11,6 +11,7 @@ ylim($4);
 title($5);
 
 
+daspect([1 1 1])
 set(gca,'LineWidth',1.5)
 set(gca,'box','off')
 set(gca,'FontSize',28)
