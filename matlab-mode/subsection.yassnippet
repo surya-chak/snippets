@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: sub_section
+# key: subsec
+# group: Matlab
+# --
+% ----- $1 -----
+$0

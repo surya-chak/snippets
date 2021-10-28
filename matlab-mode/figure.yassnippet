@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: figure
+# key: figure	
+# group: matlab
+# --
+$1=figure('units','inches','outerposition',[0 0 10 15]);clf;
+$0
+
