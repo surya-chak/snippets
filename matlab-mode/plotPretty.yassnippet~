@@ -1,0 +1,28 @@
+# -*- mode: snippet -*-
+# name: contour_Pretty
+# key: subsec
+# group: Matlab
+# --
+% -----
+xlabel($1,'FontSize',32,'interpreter','latex');
+xlim($2);
+ylabel($3,'FontSize',32,'interpreter','latex');
+ylim($4);
+title($5);
+
+
+set(gca,'LineWidth',1.5)
+set(gca,'box','off')
+set(gca,'FontSize',28)
+
+set(gca,'XMinorTick','on')
+% set(gca,'XTick',[0.5,1.5,2.5])
+% set(gca,'XTickLabel',[{'0.5','1.5','2.5'}])
+
+set(gca,'YMinorTick','on')
+% set(gca,'YTick',[0.5,1.5,2.5])
+% set(gca,'YTickLabel',[{'0.5','1.5','2.5'}])
+set(gca,'TickDir','out')
+set(gca,'TickLength',[0.02,0.02])
+% -----
+$0
