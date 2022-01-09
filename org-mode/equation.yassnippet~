@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: sub_section
+# key: subsec
+# group: julia
+# --
+# ----- $1 -----
+$0

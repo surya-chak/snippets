@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: PythonSrc
+# key: pysrc
+# group: org
+# --
+#+BEGIN_SRC python
+$0
+#+END_SRC

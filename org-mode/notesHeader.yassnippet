@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: notesHeader
+# key: notesHeader
+# group: org
+# --
+#+STARTUP: latexpreview
+#+STARTUP: inlineimages
+#+TITLE: $1
+

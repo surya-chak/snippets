@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Align
+# key: align
+# group: org
+# --
+\begin{align}
+	$1\\
+	$2\\
+	$0
+\end{align}

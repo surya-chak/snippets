@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: BigSummation
+# key: sum
+# group: org
+# --
+\sum_{$1}^{$2}
